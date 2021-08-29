@@ -87,7 +87,7 @@
 
 - テーブルの中で、もっとも重要なフィールドのこと
 
-<img src="./images/1-4_figure_primary.png" class="box" width="400">
+<img src="./images/1-4_figure_primary.png">
 
 ### 関数従属性とは
 
@@ -97,7 +97,7 @@
 
 - テーブルの主キー同士の関連性のこと
 
-<img src="./images/1-10_figure_relationship.png" class="box" width="400">
+<img src="./images/1-10_figure_relationship.png">
 
 ### 多重度とは
 
