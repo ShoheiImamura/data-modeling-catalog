@@ -1,4 +1,13 @@
-# 1章「かね玄」のデータモデル
+<style>
+.box{
+  float: left;
+}
+.boxContainer{
+  overflow: hidden;
+}
+</style>
+
+# 1 章「かね玄」のデータモデル
 
 データモデリングの基本を具体例を見ながら体験します。
 その後で、データモデリングのお作法を学びます。（覚えます）
@@ -38,29 +47,47 @@
 
 ## データモデルのお作法（ざっくり説明）
 
+<img src="./images/1-4_figure.png">
+
 ### テーブルとは
 
 - いくつかのデータ項目のまとまりのこと
+
+<img src="./images/1-4_figure_table.png">
 
 ### フィールドとは
 
 - テーブルに含まれるデータ項目のこと
 
+<img src="./images/1-4_figure_field.png">
+
 ### 論理フィールドとは
 
 - フィールドのうち、他のフィールドから導出できるもの
+
+<img src="./images/1-4_figure_logical.png">
 
 ### 物理フィールドとは
 
 - フィールドのうち、論理フィールド以外のもの
 
+<img src="./images/1-4_figure_physical.png">
+
 ### ビューとは
 
 - データを人間が見たい形式で出力したもの
 
+<div class="boxContainer">
+  <img src="./images/1-2.png" class="box" width="300">
+  <img src="./images/1-2_table.png" class="box" width="400">
+  <img src="./images/1-4_table.png" class="box" width="400">
+</div>
+
 ### 主キーとは
 
 - テーブルの中で、もっとも重要なフィールドのこと
+
+<img src="./images/1-4_figure_primary.png" class="box" width="400">
 
 ### 関数従属性とは
 
@@ -70,8 +97,8 @@
 
 - テーブルの主キー同士の関連性のこと
 
+<img src="./images/1-10_figure_relationship.png" class="box" width="400">
+
 ### 多重度とは
 
 - テーブル関連の中で、片方のレコードに対して、もう片方がどのくらい対応するかのこと
-
-
