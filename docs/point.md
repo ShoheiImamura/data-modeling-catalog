@@ -1,3 +1,15 @@
+### ユースケース
+
+- ポイントを現金で購入する
+- ポイントを他のユーザーに贈呈する
+- ポイントを他のユーザーから贈呈される
+- ポイントを使って注文をする
+- ポイントを商品券と交換する
+
+### データモデル
+
+<img src="./images/point_datamodel.png">
+
 ```plantuml
 ' hide the spot
 hide circle
